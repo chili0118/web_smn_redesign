@@ -8,11 +8,17 @@
 
 nav {
     display: grid;
-    grid-template-columns: 20% 70% 10%;
+    /* grid-template-columns: 20% 70% 10%; */
     background: rgb(255, 238, 238);
     box-shadow: 0 3px 10px rgba(0,0,0,.1);
     align-items: center;
+    position: fixed;
+    height: 100vh;
+    grid-template-rows: 20% 70% 10%;
+}
 
+body {
+    height: 3000px;
 }
 
 #logo img {
@@ -20,8 +26,10 @@ nav {
 }
 
 #link a {
-    padding: 40px;
+    padding: 30px;
     text-decoration: none;
+    display: inline-block;
+    width: 10px;
 }
 
 #social img {

@@ -125,12 +125,64 @@ body {
 }
 
 #info .text hr {
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    width: 80%;
+    margin: 0 auto;
 }
 
 #info .text p {
     padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
 }
 
+#info .text a {
+    font-size: 12px;
+}
 
+.footer-top {
+    margin-top: 150px;
+    background: rgb(255, 238, 238);
+    padding: 20px;
+}
 
+.footer-top a img {
+    padding: 10px;
+}
+
+.footer-main {
+    background: rgb(112, 112, 112);
+    height: 150px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.footer-main .logo img {
+    width: 80px;
+    padding: 50px;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5;
+    padding: 0 100px;
+}
+
+.link a:hover {
+    color:  rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.footer-bottom {
+    background: rgb(112, 112, 112);
+    padding-top: 50px;
+}
+
+.footer-bottom p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+}

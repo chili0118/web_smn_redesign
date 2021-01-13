@@ -11,10 +11,15 @@ nav {
     grid-template-columns: 20% 70% 10%;
     background: rgb(255, 238, 238);
     box-shadow: 0 3px 10px rgba(0,0,0,.1);
+    padding: 20px 30px;
     align-items: center;
     /* position: fixed; */
     /* height: 100vh; */
     /* grid-template-rows: 20% 70% 10%; */
+    position: fixed;
+    z-index: 3;
+    opacity: .9;
+    width: 100%;
 }
 
 body {
@@ -202,6 +207,41 @@ body {
 #info .text a {
     font-size: 12px;
 }
+
+/* 其他服務 */
+
+#service {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#service div:focus {
+    outline: none;
+}
+
+#service h2 {
+    text-align: center;
+    color: #777;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+#service img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    transition: .5s;
+}
+
+#service img:hover {
+    border-radius: 10px;
+
+}
+
+
+/* footer */
 
 footer {
     padding: 20px;

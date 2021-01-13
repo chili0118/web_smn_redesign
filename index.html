@@ -7,7 +7,9 @@
     <title>夏慕尼 | 新香榭鐵板燒</title>
     <!-- AOS套件 -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- slick 套件 -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -31,9 +33,21 @@
 
     <!-- 最新消息 -->
     <div id="banner">
-        <img src="./img/banner-1.jpg" alt="">
-        <img src="./img/banner-2.jpg" alt="">
-        <img src="./img/banner-3.jpg" alt="">
+        <div class="banner1">
+            <h1>今晚我想來點...</h1>
+            <hr>
+            <p>五星主廚特製鐵板料理</p>
+        </div>
+        <div class="banner2">
+            <h1>今晚我想來點...</h1>
+            <hr>
+            <p>鄉村田野風味手做麵包</p>
+        </div>
+        <div class="banner3">
+            <h1>今晚我想來點...</h1>
+            <hr>
+            <p>法式草莓鬆餅</p>
+        </div>
     </div>
 
     <!-- 菜單 -->
@@ -119,9 +133,9 @@
             <a href="#"><img src="./img/icon-line.png" alt="line 賴"></a>
         </div>
         <div class="footer-main">
-                <a href="#">聯絡我們</a>
-                <a href="#">禮券查詢</a>
-                <a href="#">人才招募</a>
+            <a href="#">聯絡我們</a>
+            <a href="#">禮券查詢</a>
+            <a href="#">人才招募</a>
         </div>
         <div class="footer-bottom">
             <p>營業時間：11:30 ~ 14:30 (最後點餐時間14:00) 17:30 ~ 22:00 (最後點餐時間21:00)</p>
@@ -135,9 +149,10 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- AOS套件 -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="main.js"></script>
 </body>
 
 </html>

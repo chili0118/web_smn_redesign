@@ -43,6 +43,69 @@ body {
     padding: 7px;
 }
 
+/* 最新消息 */
+
+#banner div {
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+
+#banner h1 {
+    font-size: 100px;
+    margin-top: 80px;
+    padding: 20px;
+    text-shadow: 0 5px 10px rgba(0,0,0,.3);
+}
+
+#banner hr {
+    background: #fff;
+    width: 80%;
+    margin: 0 auto;
+    height: 5px;
+    border: none;
+}
+
+#banner p {
+    font-size: 26px;
+    padding: 10px;
+    text-shadow: 0 2px 10px rgba(0,0,0,.3);
+}
+
+#banner .slick-prev {
+    left: 50px;
+    z-index: 2;
+    transform: scale(1.5);
+}
+
+#banner .slick-next {
+    right: 50px;
+    transform: scale(1.5);
+
+}
+
+#banner .slick-dots {
+    bottom: 30px;
+}
+
+.banner1 {
+    background-image: url(./img/banner-1.jpg);
+}
+
+.banner2 {
+    background-image: url(./img/banner-2.jpg);
+}
+.banner3 {
+    background-image: url(./img/banner-3.jpg);
+}
+
+
+/* 菜單 */
+
+#product > div {
+    margin-top: 20px;
+}
+
 #product > div {
     display: grid;
     grid-template-columns: 60% 40%;
